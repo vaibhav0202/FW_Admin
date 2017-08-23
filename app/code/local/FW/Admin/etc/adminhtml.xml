@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    FW
+ * @package     FW_Admin
+ * @copyright   Copyright (c) 2013 F+W Media, Inc. (http://www.fwmedia.com)
+ * @author      J.P. Daniel <jp.daniel@fwmedia.com>
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <thirdparty translate="title" module="fw_admin">
+                                        <title>3rd Party Settings</title>
+                                        <sort_order>100</sort_order>
+                                    </thirdparty>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

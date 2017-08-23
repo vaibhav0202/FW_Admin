@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    FW
+ * @package     FW_Admin
+ * @copyright   Copyright (c) 2013 F+W Media, Inc. (http://www.fwmedia.com)
+ * @author      J.P. Daniel <jp.daniel@fwmedia.com>
+ */
+-->
+<config>
+    <modules>
+        <FW_Admin>
+            <version>0.1.0</version>
+        </FW_Admin>
+    </modules>
+    <global>
+        <helpers>
+            <fw_admin>
+                <class>FW_Admin_Helper</class>
+            </fw_admin>
+        </helpers>
+    </global>
+</config>

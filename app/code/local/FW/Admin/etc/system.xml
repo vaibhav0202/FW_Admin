@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    FW
+ * @package     FW_Admin
+ * @copyright   Copyright (c) 2013 F+W Media, Inc. (http://www.fwmedia.com)
+ * @author      J.P. Daniel <jp.daniel@fwmedia.com>
+ */
+-->
+<config>
+    <tabs>
+        <fw_admin translate="label" module="fw_admin">
+            <label>F+W Media, Inc.</label>
+            <sort_order>99999</sort_order>
+        </fw_admin>
+    </tabs>
+    <sections>
+        <thirdparty translate="label" module="fw_admin">
+            <label>3rd Party Settings</label>
+            <tab>fw_admin</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>999</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+        </thirdparty>
+      </sections>
+</config>
